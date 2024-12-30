@@ -1,0 +1,136 @@
+parsers: # array
+  - url: https://app.nloli.xyz/sub?target=clash&udp=true&config=https%3A%2F%2Fapp.nloli.xyz%2Fstatic%2FACL4SSR_Online.ini&exclude=GAME&emoji=true&filename=Paoluz_Cat4SSR&new_name=true&url=https://rss.paoluz.xyz/link/6lEgMhQCofbvxawz?sub=1
+    yaml:
+      prepend-rules:
+        - GEOIP,PRIVATE,DIRECT,no-resolve
+        - GEOIP,FACEBOOK,🚀 节点代理
+        - GEOIP,CN,DIRECT,no-resolve
+        - DOMAIN-SUFFIX,valvesoftware.com,🚀 节点代理
+        - DOMAIN-SUFFIX,refrag.gg,🚀 节点代理
+        - DOMAIN-SUFFIX,x.com,🚀 节点代理
+        - PROCESS-NAME,BEService.exe,🚀 节点代理
+        - PROCESS-NAME,TslGame.exe,🚀 节点代理
+        - DOMAIN-SUFFIX,www.etsy.com,🚀 节点代理
+        - DOMAIN-SUFFIX,blc.lolicon.app,🚀 节点代理
+        - DOMAIN-SUFFIX,mashir0-blcp.hf.space,🚀 节点代理
+        - PROCESS-NAME,Battle.net.exe,🚀 节点代理
+        - PROCESS-NAME,HeroesOfTheStorm_x64.exe,🚀 节点代理
+        - DOMAIN-SUFFIX,arkoselabs.com,🚀 节点代理
+        - DOMAIN-SUFFIX,battle.net,🚀 节点代理
+        - DOMAIN-SUFFIX,blizzard.com,🚀 节点代理
+        - DOMAIN-SUFFIX,static.tsviewer.com,🚀 节点代理
+        - DOMAIN-SUFFIX,teamspeak.com,🚀 节点代理
+        - DOMAIN-SUFFIX,helpful.dev,🚀 节点代理
+        - DOMAIN-SUFFIX,api.steampowered.com,🚀 节点代理
+        - DOMAIN-SUFFIX,steamserver.net,🚀 节点代理
+        - DOMAIN-SUFFIX,redditstatic.com,🚀 节点代理
+        - DOMAIN-SUFFIX,coinmarketcap.com,🚀 节点代理
+        - DOMAIN-SUFFIX,bitcointalk.org,🚀 节点代理
+        - DOMAIN-SUFFIX,golang.org,🚀 节点代理
+        - DOMAIN-SUFFIX,doubleclick.net,🚀 节点代理
+        - DOMAIN-SUFFIX,renzhe.cloud,🚀 节点代理
+        - DOMAIN-SUFFIX,jetbrains.com,🚀 节点代理
+        - DOMAIN-SUFFIX,slack.com,🚀 节点代理
+        - DOMAIN-SUFFIX,oculus.com,🚀 节点代理
+        - DOMAIN-SUFFIX,oculuscdn.com,🚀 节点代理
+        - DOMAIN-SUFFIX,meta.com,🚀 节点代理
+        - DOMAIN-SUFFIX,webpkgcache.com,🚀 节点代理
+        - DOMAIN-SUFFIX,steamcontent.com,🚀 节点代理
+        - DOMAIN-SUFFIX,steamstatic.com,🚀 节点代理
+        - DOMAIN-SUFFIX,live.com,🚀 节点代理
+        - DOMAIN-SUFFIX,msftauth.net,🚀 节点代理
+        - DOMAIN-SUFFIX,arxiv.org,🚀 节点代理
+        - DOMAIN-SUFFIX,suno.com,🚀 节点代理
+        - DOMAIN-SUFFIX,suno.ai,🚀 节点代理
+        - DOMAIN-SUFFIX,paoluz.com,🚀 节点代理
+        - DOMAIN-SUFFIX,ingest.sentry.io,DIRECT
+        - DOMAIN-KEYWORD,openai,🚀 节点代理
+        - DOMAIN-SUFFIX,auth0.com,🚀 节点代理
+        - DOMAIN-SUFFIX,chatgpt.com,🚀 节点代理
+        - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点代理
+        - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点代理
+        - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点代理
+        - DOMAIN-SUFFIX,featuregates.org,🚀 节点代理
+        - DOMAIN-SUFFIX,identrust.com,🚀 节点代理
+        - DOMAIN-SUFFIX,intercom.io,🚀 节点代理
+        - DOMAIN-SUFFIX,intercomcdn.com,🚀 节点代理
+        - DOMAIN-SUFFIX,openai.com,🇺🇸 B41 美国
+        - DOMAIN-SUFFIX,chatgpt.com,🇺🇸 B41 美国
+        - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🇺🇸 B41 美国
+        - DOMAIN-SUFFIX,sentry.io,🇺🇸 B41 美国
+        - DOMAIN-SUFFIX,stripe.com,🇺🇸 B41 美国
+        - DOMAIN-SUFFIX,oaistatic.com,🇺🇸 B41 美国
+        - DOMAIN-SUFFIX,oaiusercontent.com,🇺🇸 B41 美国
+        - DOMAIN,cdn.usefathom.com,🚀 节点代理
+        - DOMAIN-SUFFIX,anthropic.com,🚀 节点代理
+        - DOMAIN-SUFFIX,claude.ai,🚀 节点代理
+        - DOMAIN,ai.google.dev,🚀 节点代理
+        - DOMAIN,alkalimakersuite-pa.clients6.google.com,🚀 节点代理
+        - DOMAIN,makersuite.google.com,🚀 节点代理
+        - DOMAIN-SUFFIX,bard.google.com,🚀 节点代理
+        - DOMAIN-SUFFIX,deepmind.com,🚀 节点代理
+        - DOMAIN-SUFFIX,deepmind.google,🚀 节点代理
+        - DOMAIN-SUFFIX,gemini.google.com,🚀 节点代理
+        - DOMAIN-SUFFIX,generativeai.google,🚀 节点代理
+        - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🚀 节点代理
+        - DOMAIN-SUFFIX,apis.google.com,🚀 节点代理
+        - DOMAIN-KEYWORD,colab,🚀 节点代理
+        - DOMAIN-KEYWORD,developerprofiles,🚀 节点代理
+        - DOMAIN-KEYWORD,generativelanguage,🚀 节点代理
+        - DOMAIN,api.msn.com,🚀 节点代理
+        - DOMAIN,api.statsig.com,🚀 节点代理
+        - DOMAIN,assets.msn.com,🚀 节点代理
+        - DOMAIN,browser-intake-datadoghq.com,🚀 节点代理
+        - DOMAIN,copilot.microsoft.com,🚀 节点代理
+        - DOMAIN,gateway.bingviz.microsoft.net,🚀 节点代理
+        - DOMAIN,gateway.bingviz.microsoftapp.net,🚀 节点代理
+        - DOMAIN,in.appcenter.ms,🚀 节点代理
+        - DOMAIN,location.microsoft.com,🚀 节点代理
+        - DOMAIN,odc.officeapps.live.com,🚀 节点代理
+        - DOMAIN,openai-api.arkoselabs.com,🚀 节点代理
+        - DOMAIN,openaicomproductionae4b.blob.core.windows.net,🚀 节点代理
+        - DOMAIN,production-openaicom-storage.azureedge.net,🚀 节点代理
+        - DOMAIN,r.bing.com,🚀 节点代理
+        - DOMAIN,self.events.data.microsoft.com,🚀 节点代理
+        - DOMAIN,services.bingapis.com,🚀 节点代理
+        - DOMAIN,static.cloudflareinsights.com,🚀 节点代理
+        - DOMAIN,www.bing.com,🚀 节点代理
+        - DOMAIN-SUFFIX,algolia.net,🚀 节点代理
+        - DOMAIN-SUFFIX,api.microsoftapp.net,🚀 节点代理
+        - DOMAIN-SUFFIX,auth0.com,🚀 节点代理
+        - DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io,🚀 节点代理
+        - DOMAIN-SUFFIX,cdn.cloudflare.net,🚀 节点代理
+        - DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点代理
+        - DOMAIN-SUFFIX,chatgpt.livekit.cloud,🚀 节点代理
+        - DOMAIN-SUFFIX,client-api.arkoselabs.com,🚀 节点代理
+        - DOMAIN-SUFFIX,edgeservices.bing.com,🚀 节点代理
+        - DOMAIN-SUFFIX,events.statsigapi.net,🚀 节点代理
+        - DOMAIN-SUFFIX,featuregates.org,🚀 节点代理
+        - DOMAIN-SUFFIX,host.livekit.cloud,🚀 节点代理
+        - DOMAIN-SUFFIX,identrust.com,🚀 节点代理
+        - DOMAIN-SUFFIX,intercom.io,🚀 节点代理
+        - DOMAIN-SUFFIX,intercomcdn.com,🚀 节点代理
+        - DOMAIN-SUFFIX,launchdarkly.com,🚀 节点代理
+        - DOMAIN-SUFFIX,oaistatic.com,🚀 节点代理
+        - DOMAIN-SUFFIX,oaiusercontent.com,🚀 节点代理
+        - DOMAIN-SUFFIX,observeit.net,🚀 节点代理
+        - DOMAIN-SUFFIX,openai.com,🚀 节点代理
+        - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🚀 节点代理
+        - DOMAIN-SUFFIX,openaicom.imgix.net,🚀 节点代理
+        - DOMAIN-SUFFIX,poe.com,🚀 节点代理
+        - DOMAIN-SUFFIX,segment.io,🚀 节点代理
+        - DOMAIN-SUFFIX,sentry.io,🚀 节点代理
+        - DOMAIN-SUFFIX,stripe.com,🚀 节点代理
+        - DOMAIN-SUFFIX,turn.livekit.cloud,🚀 节点代理
+        - DOMAIN-KEYWORD,openaicom-api,🚀 节点代理
+        - IP-CIDR,24.199.123.28/32,🚀 节点代理,no-resolve
+        - IP-CIDR,64.23.132.171/32,🚀 节点代理,no-resolve
+        - DOMAIN-SUFFIX,bing.com,🚀 节点代理
+        - DOMAIN-SUFFIX,bing.com.cn,🚀 节点代理
+        - DOMAIN-SUFFIX,bing.net,🚀 节点代理
+        - DOMAIN-SUFFIX,bingads.com,🚀 节点代理
+        - DOMAIN-SUFFIX,bingagencyawards.com,🚀 节点代理
+        - DOMAIN-SUFFIX,bingapistatistics.com,🚀 节点代理
+        - DOMAIN-SUFFIX,bingsandbox.com,🚀 节点代理
+        - DOMAIN-SUFFIX,bingvisualsearch.com,🚀 节点代理
+        - DOMAIN-SUFFIX,bingworld.com,🚀 节点代理
