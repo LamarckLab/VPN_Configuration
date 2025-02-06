@@ -1,2 +1,2 @@
-# 023_VPN_Configuration
+# VPN_Configuration
 Some docs about VPN configuration
